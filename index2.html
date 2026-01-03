@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu primeiro site">
+    <meta name="keywords" content="HTML ; PROGRAMAÇÃO ; aprendizado">
+    <meta name="author" content="Carlos Victor">
+        <title>Uma Declaração para minha namorada</title>
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!--CSS da página-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+.header {
+    text-align: center;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+}
+    body { 
+        margin: 0%; 
+    background-image: url(fotos/azul\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    }
+    *{
+        margin: 0;
+    }
+    html{
+        scroll-behavior: smooth;
+        padding: 0%;
+        margin: 0%;
+    }
+    .historia {
+        background-color: #000000;
+        box-sizing: border-box;
+        padding: 30px;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        text-decoration: none;
+        margin: 10%;
+        border: 10px solid #2b6cb0;
+        border-radius: 15px;
+    }
+    .letra {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        color: #ffffff;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #000000;
+    }
+    .barra {
+        border: 1px solid #000000;
+        margin: 50px;
+    }
+    .botao{
+        text-align: center;
+        color: white;
+        border: #2b6cb0;
+        background: #2b6cb0;
+        margin-left: 470px;
+        margin-right: 470px;
+        border-radius: 50px;
+        font-size: 60px;
+        box-shadow: 6px 6px 6px #000000; 
+
+    }
+    .botao:hover, botao a:hover{
+        background: red;
+        font-size: 55px;
+        color: rgb(0, 0, 0);
+        border: #000000;
+        border-radius: 50px;
+        cursor: help;
+    }
+    
+        #foto1{
+            display: block;  
+            width:45%; 
+            height: 1200px;
+            border: 10px solid #2b6cb0; 
+            border-radius: 15px;
+            position: relative;
+            float: left;
+            margin-left: 2%;
+        }
+        #foto2{
+            display: block;  
+            width: 45%;
+            height: 1200px; 
+            border: 10px solid #2b6cb0; 
+            border-radius: 15px;
+            position: relative;
+            float: right;
+            margin-right: 2%;
+        }
+        .capas{
+            overflow: auto;
+            display: block;
+            margin-top: 100px;
+        }
+        #coracao{
+            position: fixed;
+    right: 20px;
+    top: 90%;
+    background: black;
+    padding: 10px;
+
+        }
+        .container2{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .navbar{
+            background: #000000;
+            position: fixed;
+            width: 25%;
+            padding: 20px;
+            z-index: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .navbar a{
+            margin: 20px;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card9{
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    height: 300px;
+    border: 10px solid #2b6cb0;
+     border-radius: 15px;
+}
+.botao2{
+ display: flex;
+ justify-content: center;
+}
+.botao2 a{
+    font-size: 20px;
+}
+    </style>
+
+</head>
+
+        <!--Esqueleto do site-->
+<body>
+    <div class="container2">
+    <nav class="navbar">
+        <ul>
+            <li class="animate__animated animate__pulse"><a href="#inicio">Início</a></li>
+            <li class="animate__animated animate__pulse"><a href="#historia">História</a></li>
+            <li class="animate__animated animate__pulse"><a href="#importante">Importante</a></li>
+        </ul>
+    </nav>
+    </div>
+            <!--Inicio-->
+    <div class="letra">
+        <section id="inicio">
+    <div class="header">
+    <h1 style="text-align: center;  border-radius: 100px; margin-left: 250px; margin-right: 250px; background: #2b6cb0; font-size: 80px; box-shadow: 6px 6px 6px #000000;" class="animate__animated animate__tada">Declaração para minha namorada</h1>
+    <div class="capas animate__animated animate__bounce">
+    <img src="fotos/beijo na praia.jpeg" alt="Foto nossa na praia" id="foto1"> 
+    <img src="fotos/lagoa.jpeg" alt="lagoa" id="foto2">
+    </div>
+    <br>
+    <p style="text-align:center; text-decoration: none;" >Ela é uma mulher <a href="fotos/belissima.jpeg" target="_blank"><abbr title="A mais gostosa hehehe">Belíssima!</abbr></a></p>
+    </div>
+    </section>
+                <!-- considerações iniciais-->
+    <section id="historia">
+            <div class="historia">
+    <h2>-Nossa história:</h2>
+    <p style="text-indent: 20px;">Nos conhecemos há muito tempo... Conversávamos de madrugada até tarde, as vezes por conta da insônia, mas sempre tive um carinho imensurável por ela. Por mais que antigamente não fôssemos muito próximos, 
+        ainda sim era possível sentir um grande e estranho conforto ao conversar. Portanto, acrédito que sejamos
+        almas gêmeas. 
+
+        <blockquote style="text-align: right;"><small><cite>-É muita conexão para não ser algo arquitetado por Deus.</cite></small></blockquote>   </p>
+        <blockquote style="text-align: right;"><small><cite>-Eu sempre soube que ela era  especial, e eu nem imaginava que no futuro iria agradecer tanto por ter tido insônia naquela época hahaha.</cite></small></blockquote>
+            
+
+
+        <!--Recitação da história-->
+        <p style="text-indent: 20px;">Muito tempo se passou e nos estavámos distantes... Vivendo vidas diferentes e sem qualquer tipo de contato. Mas em dezembro de 2024, finalmente nos reconectamos. Com um pedido de desculpas (vindo da minha parte) e uma nova chance para eu mostrar ser diferente e melhor do que fui... 
+            
+            <blockquote style="text-align: right;"><small><cite>-Meu plano estava apenas começando hihihi</cite></small></blockquote></p>
+            <p style="text-indent: 20px;">Ela me deu essa chance e eu a agarrei com todas as minhas forças. Desde o primeiro momento que começamos a conversar novamente, senti que algo estava diferente. Havia uma <a href="fotos/rindo na praia.jpeg" target="_blank"> <strong>química </strong></a> 
+                e sintonia  inesplicavel. As semanas foram se passando
+                e em tibau nos conectamos ainda mais. Foi quando eu percebi que estava completamente apaixonado por <a href="fotos/comendo torrada.jpeg" target="_blank"> <strong> ela</strong></a>. Após sérias conversas e momentos especiais, finalmente criei coragem para confessar meus sentimentos. Parecia ser cedo, mas os sentimentos
+                e a vontade de expressar o que eu sentia eram mais fortes do que qualquer medo ou insegurança. A partir disso não nos desgrudamos mais. Conversamos todos os dias, rimos juntos, compartilhamos nossas vidas e sonhos. 
+                <blockquote style="text-align: right;"><small><cite>-O nosso grude grude so aumentava...</cite></small></blockquote>
+                <p style="text-indent: 20px;">Meses se passaram após tibau e eu tomei coragem... Dia 2 de março de 2025, eu pedi ela em namoro. </p>
+                <blockquote style="text-align: right;"><small><cite>-E por incrível que pareça, foi na praia em que nos reconectou. </cite></small> </blockquote>
+                <p style="text-indent: 20px;">Desde então, nossa relação só tem crescido e se fortalecido. Cada dia que passa, descubro mais razões para amá-la e <a href="fotos/rosto dela.jpeg" target="_blank">admirá-la</a>. Ela é minha <a href="fotos/dormindo.jpeg" target="_blank"> companheira</a>, minha confidente e minha melhor amiga. Juntos, enfrentamos desafios, celebramos conquistas e construímos memórias inesquecíveis. 
+                    <blockquote style="text-align: right;"><small><cite>-Não há dúvidas de que somos feitos um para o outro e que minha escolha foi certa.</cite></small></blockquote>
+                </p>
+                <p style="text-indent: 20px;">Hoje, olhando para trás, percebo o quanto minha vida mudou desde que ela entrou nela. Sou uma pessoa mais <a href="fotos/na praia.jpeg" target="_blank"> feliz</a>, mais completa e mais realizada. Agradeço todos os dias por tê-la ao meu lado e por poder compartilhar minha vida com alguém tão especial.
+                    <blockquote style="text-align: right;"><small><cite>-É incrível pensar que uma paixão de criança hoje se tornou uma relação linda e recheada de sentimentos...</cite></small></blockquote>
+                    <BLOckquote style="text-align: right;"><small><cite>-Ainda mais porque eu sempre tive um olhar diferente para você, sempre brilhastes para mim. Ou quando eu lhe via no intervalo na Convesti ou brincando de esconde-esconde no condomínio... Para mim isso era mágico.</cite></small></BLOckquote>
+                    <blockquote style="text-indent: 20px; text-align: right;"> <i>-Mal posso esperar para ver o que o futuro nos reserva.</i></blockquote>
+                    <p style="text-align: center;"><i>-Isso é <b>SOMENTE</b> o <a href="fotos/começo.jpeg" target="_blank"> começo.</a></i></p>
+                    <br>
+        <!--Informações adicionais(Iframe) -->
+    <p style="text-align: center;"> Minha <small><del>namorada</del></small> <B>FUTURA NOIVA</b> é a coisa mais perfeita do <b>mundo!</b>    </p> 
+
+        </div>
+</section>
+<section id="importante">
+        <details style="text-align: right;">
+
+            <summary style="color: #0804f8; 
+            text-shadow:-2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black; ;">Para você</summary>
+                <p style="text-decoration: none;"><a href="fotos.html" target="tela amor">Nossas fotos que mais gosto!</a></p>
+        <br>
+                <iframe style="border: none;" src="" width="100%" name="tela amor" height="520"></iframe>
+
+        </details>
+
+
+        <!--Final-->
+        
+        <hr class="barra">
+        <div class="botao">
+        <h1><A href="https://youtube.com/shorts/3Slp9f6Zcwg" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);">EU TE AMO</A>❤️</h1>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="card9">
+                <h1 style="color: rgb(255, 255, 255); text-align: center;">Considerações</h1>
+                <div class="botao2">
+                <button><a href="consi.html">Clique aqui</a></button></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <p id="coracao">❤️</p>
+    <script src="index2.js"></script>
+</body>
+</html>
