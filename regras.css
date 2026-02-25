@@ -52,3 +52,6 @@ p{
     color: black;
     font-size: 30px;
 }
+button{
+    border-radius: 20px;
+}
